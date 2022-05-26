@@ -1,13 +1,200 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<map version="1.8" tiledversion="1.8.4" orientation="isometric" renderorder="left-up" width="20" height="20" tilewidth="128" tileheight="64" infinite="0" nextlayerid="7" nextobjectid="3">
+<map version="1.8" tiledversion="1.8.4" orientation="isometric" renderorder="left-up" width="20" height="20" tilewidth="128" tileheight="64" infinite="0" nextlayerid="8" nextobjectid="3">
  <tileset firstgid="1" name="chengshi_1" tilewidth="128" tileheight="64" tilecount="128" columns="8">
   <grid orientation="isometric" width="128" height="64" />
   <image source="chengshi_1.png" width="1024" height="1024" />
+  <tile id="4">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="-1.5" y="-1.16667" width="66" height="65.3333" />
+   </objectgroup>
+  </tile>
+  <tile id="5">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="-1" y="-2" width="65" height="66.3333" />
+   </objectgroup>
+  </tile>
+  <tile id="6">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="-1.5" y="-2.16667" width="66.3333" height="67" />
+   </objectgroup>
+  </tile>
+  <tile id="7">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="-2.33333" y="-1.66667" width="67.3333" height="66" />
+   </objectgroup>
+  </tile>
+  <tile id="12">
+   <objectgroup draworder="index" id="3">
+    <object id="3" x="10.1667" y="-3.16667" width="55" height="69.6667" />
+   </objectgroup>
+  </tile>
+  <tile id="13">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="-4" y="-3.33333" width="57" height="70.3333" />
+   </objectgroup>
+  </tile>
+  <tile id="14">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="-2.83333" y="-2.5" width="68.3333" height="51.6667" />
+   </objectgroup>
+  </tile>
+  <tile id="15">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="-2.66667" y="10" width="67.6667" height="55.6667" />
+   </objectgroup>
+  </tile>
+  <tile id="20">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="-1.83333" y="11.8333" width="50" height="52.6667" />
+   </objectgroup>
+  </tile>
+  <tile id="21">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="11.8333" y="-3.16667" width="54.6667" height="50.6667" />
+   </objectgroup>
+  </tile>
+  <tile id="22">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="-4.33333" y="-3.66667" width="49.5" height="46.5" />
+   </objectgroup>
+  </tile>
+  <tile id="23">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="16.8333" y="17.8333" width="49.3333" height="48.6667" />
+   </objectgroup>
+  </tile>
+  <tile id="28">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="-2.33333" y="48" width="52.3333" height="17" />
+    <object id="2" x="-2.5" y="-0.833333" width="68.6667" height="50" />
+   </objectgroup>
+  </tile>
+  <tile id="29">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="-3" y="9.5" width="12.8333" height="54.8333" />
+    <object id="2" x="9.83333" y="-2.5" width="56" height="69.3333" />
+   </objectgroup>
+  </tile>
+  <tile id="30">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="-3.66667" y="-3.5" width="15.8333" height="53.8333" />
+    <object id="2" x="11" y="-2.83333" width="54.5" height="72.5" />
+   </objectgroup>
+  </tile>
+  <tile id="31">
+   <objectgroup draworder="index" id="3">
+    <object id="3" x="-5.83333" y="-3.83333" width="57" height="15.6667" />
+    <object id="4" x="-3.66667" y="9" width="71.3333" height="58.6667" />
+   </objectgroup>
+  </tile>
+  <tile id="36">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="10.5" y="-3.33333" width="55.5" height="70.8333" />
+   </objectgroup>
+  </tile>
+  <tile id="37">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="-3.33333" y="-3.33333" width="62.6667" height="70.6667" />
+   </objectgroup>
+  </tile>
+  <tile id="38">
+   <objectgroup draworder="index" id="3">
+    <object id="2" x="-3.83333" y="-2.83333" width="69.8333" height="53.5" />
+   </objectgroup>
+  </tile>
+  <tile id="39">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="-3.66667" y="9" width="69.5" height="56.5" />
+   </objectgroup>
+  </tile>
+  <tile id="52">
+   <objectgroup draworder="index" id="3">
+    <object id="3" x="35.8333" y="-7.16667" width="32" height="35.3333" />
+   </objectgroup>
+  </tile>
+  <tile id="53">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="35.5" y="37.1667" width="32.5" height="30.1667" />
+   </objectgroup>
+  </tile>
+  <tile id="54">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="-2.5" y="36.3333" width="29.5" height="29.5" />
+   </objectgroup>
+  </tile>
+  <tile id="55">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="-6" y="-6" width="32.5" height="32.8333" />
+   </objectgroup>
+  </tile>
+  <tile id="60">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="34.5" y="-5" width="33.8333" height="75.1667" />
+   </objectgroup>
+  </tile>
+  <tile id="61">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="-3.5" y="32.8333" width="71" height="34.3333" />
+   </objectgroup>
+  </tile>
+  <tile id="62">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="-5" y="-4.16667" width="71.1667" height="35.8333" />
+   </objectgroup>
+  </tile>
+  <tile id="63">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="-5.16667" y="-8.16667" width="39.5" height="77.1667" />
+   </objectgroup>
+  </tile>
+  <tile id="68">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="34.1667" y="-7.66667" width="32.1667" height="75.5" />
+    <object id="2" x="-7.16667" y="-5.66667" width="43.5" height="36.3333" />
+   </objectgroup>
+  </tile>
+  <tile id="69">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="-6.66667" y="-3.33333" width="38.6667" height="39.5" />
+    <object id="2" x="-6.5" y="34.3333" width="72.1667" height="36.8333" />
+   </objectgroup>
+  </tile>
+  <tile id="70">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="-5.5" y="33.3333" width="40.8333" height="34.8333" />
+    <object id="2" x="31.6667" y="-4.33333" width="35.8333" height="72.8333" />
+   </objectgroup>
+  </tile>
+  <tile id="71">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="-5.66667" y="-6.33333" width="38.6667" height="73.3333" />
+    <object id="2" x="31.1667" y="-5.16667" width="37.3333" height="39.3333" />
+   </objectgroup>
+  </tile>
+  <tile id="76">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="-3.5" y="30.1667" width="38" height="35.3333" />
+    <object id="2" x="30" y="-2.83333" width="34.1667" height="37.5" />
+   </objectgroup>
+  </tile>
+  <tile id="77">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="-7.33333" y="-6.66667" width="42.1667" height="41.8333" />
+    <object id="2" x="27.3333" y="26.6667" width="40" height="40.6667" />
+   </objectgroup>
+  </tile>
+  <tile id="79">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="-4.5" y="-5.16667" width="71.6667" height="71" />
+   </objectgroup>
+  </tile>
   <wangsets>
    <wangset name="city" type="corner" tile="4">
-    <wangcolor name="ground" color="#ff0000" tile="-1" probability="1" />
-    <wangcolor name="water" color="#00ff00" tile="-1" probability="1" />
-    <wangcolor name="road" color="#0000ff" tile="-1" probability="1" />
+    <wangcolor name="ground" color="#ff0000" tile="121" probability="1" />
+    <wangcolor name="water" color="#00ff00" tile="120" probability="1" />
+    <wangcolor name="road" color="#0000ff" tile="4" probability="1" />
+    <wangcolor name="road2" color="#ff7700" tile="79" probability="1" />
+    <wangcolor name="house" color="#00e9ff" tile="108" probability="1" />
     <wangtile tileid="0" wangid="0,1,0,2,0,2,0,2" />
     <wangtile tileid="1" wangid="0,2,0,1,0,2,0,2" />
     <wangtile tileid="2" wangid="0,2,0,2,0,1,0,2" />
@@ -49,38 +236,72 @@
     <wangtile tileid="49" wangid="0,2,0,1,0,1,0,1" />
     <wangtile tileid="50" wangid="0,1,0,1,0,1,0,2" />
     <wangtile tileid="51" wangid="0,1,0,2,0,1,0,1" />
+    <wangtile tileid="52" wangid="0,4,0,1,0,1,0,1" />
+    <wangtile tileid="53" wangid="0,1,0,4,0,1,0,1" />
+    <wangtile tileid="54" wangid="0,1,0,1,0,4,0,1" />
+    <wangtile tileid="55" wangid="0,1,0,1,0,1,0,4" />
     <wangtile tileid="56" wangid="0,1,0,1,0,2,0,1" />
     <wangtile tileid="57" wangid="0,2,0,1,0,1,0,1" />
     <wangtile tileid="58" wangid="0,1,0,1,0,1,0,2" />
     <wangtile tileid="59" wangid="0,1,0,2,0,1,0,1" />
+    <wangtile tileid="60" wangid="0,4,0,4,0,1,0,1" />
+    <wangtile tileid="61" wangid="0,1,0,4,0,4,0,1" />
+    <wangtile tileid="62" wangid="0,4,0,1,0,1,0,4" />
+    <wangtile tileid="63" wangid="0,1,0,1,0,4,0,4" />
     <wangtile tileid="64" wangid="0,1,0,1,0,2,0,1" />
     <wangtile tileid="65" wangid="0,2,0,1,0,1,0,1" />
     <wangtile tileid="66" wangid="0,1,0,1,0,1,0,2" />
     <wangtile tileid="67" wangid="0,1,0,2,0,1,0,1" />
+    <wangtile tileid="68" wangid="0,4,0,4,0,1,0,4" />
+    <wangtile tileid="69" wangid="0,1,0,4,0,4,0,4" />
+    <wangtile tileid="70" wangid="0,4,0,4,0,4,0,1" />
+    <wangtile tileid="71" wangid="0,4,0,1,0,4,0,4" />
     <wangtile tileid="72" wangid="0,2,0,1,0,2,0,1" />
     <wangtile tileid="73" wangid="0,2,0,1,0,2,0,1" />
     <wangtile tileid="74" wangid="0,1,0,2,0,1,0,2" />
     <wangtile tileid="75" wangid="0,1,0,2,0,1,0,2" />
+    <wangtile tileid="76" wangid="0,4,0,1,0,4,0,1" />
+    <wangtile tileid="77" wangid="0,1,0,4,0,1,0,4" />
+    <wangtile tileid="79" wangid="0,4,0,4,0,4,0,4" />
+    <wangtile tileid="84" wangid="0,5,0,1,0,1,0,1" />
+    <wangtile tileid="85" wangid="0,1,0,5,0,1,0,1" />
+    <wangtile tileid="86" wangid="0,1,0,1,0,5,0,1" />
+    <wangtile tileid="87" wangid="0,1,0,1,0,1,0,5" />
+    <wangtile tileid="92" wangid="0,5,0,5,0,1,0,1" />
+    <wangtile tileid="93" wangid="0,1,0,5,0,5,0,1" />
+    <wangtile tileid="94" wangid="0,5,0,1,0,1,0,5" />
+    <wangtile tileid="95" wangid="0,1,0,1,0,5,0,5" />
+    <wangtile tileid="100" wangid="0,5,0,5,0,1,0,5" />
+    <wangtile tileid="101" wangid="0,1,0,5,0,5,0,5" />
+    <wangtile tileid="102" wangid="0,5,0,5,0,5,0,1" />
+    <wangtile tileid="103" wangid="0,5,0,0,0,5,0,5" />
+    <wangtile tileid="108" wangid="0,5,0,5,0,5,0,5" />
     <wangtile tileid="120" wangid="0,2,0,2,0,2,0,2" />
     <wangtile tileid="121" wangid="0,1,0,1,0,1,0,1" />
    </wangset>
   </wangsets>
  </tileset>
- <layer id="1" name="bg" width="20" height="20">
+ <tileset firstgid="129" name="meta" tilewidth="128" tileheight="64" tilecount="3" columns="3">
+  <image source="meta.png" width="384" height="64" />
+ </tileset>
+ <tileset firstgid="132" name="bangao_01" tilewidth="128" tileheight="96" tilecount="20" columns="4">
+  <image source="bangao_01.png" width="512" height="512" />
+ </tileset>
+ <layer id="1" name="bg" width="20" height="20" locked="1">
   <data encoding="csv">
-23,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,
-122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,
-122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,
-122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,
-122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,
-122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,
-122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,
-122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,
-122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,
-122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,
-122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,
-122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,
-11,43,27,65,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,
+23,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,61,64,
+122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,61,64,
+122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,61,64,
+122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,61,64,
+122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,61,64,
+122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,61,64,
+122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,61,64,
+122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,61,64,
+122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,61,64,
+122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,61,64,
+122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,61,64,
+122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,61,64,
+11,43,27,65,122,122,122,122,122,122,122,122,122,122,122,122,122,122,53,56,
 121,121,121,17,43,11,43,11,43,11,43,11,43,11,27,27,43,27,27,43,
 121,121,121,121,121,121,121,121,121,121,121,121,121,121,121,121,121,121,121,121,
 121,121,121,121,121,121,121,121,121,121,121,121,121,121,121,121,121,121,121,121,
@@ -113,7 +334,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
  </layer>
  <objectgroup id="4" name="obj" />
- <layer id="5" name="pz" width="20" height="20">
+ <layer id="5" name="pz" width="20" height="20" visible="0">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
